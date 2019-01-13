@@ -1,0 +1,320 @@
+html, body {
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+body {
+}
+/*--------------------------         header        ---------------- */
+.header {
+	width: 100%;
+	height: 800px;
+	background-image: url(image/mlechny-put.jpg);
+	background-size: cover;
+	margin-bottom: 50px;
+}
+h1 {
+	opacity: 0.5;
+	color: white;
+	padding: 15px;
+	letter-spacing: 4px;
+	user-select: none;
+}
+
+
+ /*--------------------------         content        ---------------- */
+ .content {
+ 	width: 65%;
+ 	height: 1600px;
+ 	margin: auto;
+ }
+.row img {
+ 	width: 350px;
+ 	height: 250px;
+ }
+ p {
+ 	margin-top: 50px;
+ 	padding: 15px;
+ 	font-family: 'Roboto Slab', serif;
+ }
+
+
+/*------------------------------------ skills ---------------------------*/
+.container {
+ 	width: 65%;
+ 	height: 800px;
+ 	margin: auto;
+}
+h3 {
+	text-align: center;
+	margin-top: 45px;
+}
+li {
+	list-style-type: none;
+}
+li i {
+	margin-right: 10px;
+	margin-top: 10px;
+}
+i {
+	color: #b43188;
+}
+
+/*----------------------------------------- adaptiv --------------------------------------------*/
+@media only screen and (max-width: 320px) {
+	.header {
+		width: 100%;
+		height: 300px;
+		background-image: url(image/mlechny-put.jpg);
+		background-size: cover;
+		margin-bottom: 50px;
+    }
+    h1 {
+    	font-size: 25px;
+    }
+	 .content {
+	 	width: 65%;
+	 	height: 1000px;
+        
+	 }
+	.row img {
+	 	width: 200px;
+	 	height: 250px;
+	 }
+	 .row {
+	 	text-align: center;
+	 }
+	 p {
+	 	margin-top: 50px;
+	 	padding: 15px;
+	 	font-family: 'Roboto Slab', serif;
+	 	font-size: 12px;
+	 	text-align: center;
+	 }
+	 /*----- skills -----*/
+	 .container {
+ 	width: 65%;
+ 	height: 800px;
+ 	margin: auto;
+	}
+	h3 {
+		text-align: center;
+		margin-top: 45px;
+		font-size: 23px;
+	}
+	li {
+		list-style-type: none;
+		text-align: center;
+	}
+	li i {
+		margin-right: 10px;
+		margin-top: 10px;
+		color: #b43188;
+		text-align: center;
+	}
+	i {
+		color: #b43188;
+	}
+	.skills {
+		text-align: center;
+	}
+}
+@media screen and (min-width: 360px) {
+	.header {
+		width: 100%;
+		height: 300px;
+		background-image: url(image/mlechny-put.jpg);
+		background-size: cover;
+		margin-bottom: 50px;
+    }
+    h1 {
+    	font-size: 25px;
+    }
+	 .content {
+	 	width: 65%;
+	 	height: 1000px;
+        
+	 }
+	.row img {
+	 	width: 200px;
+	 	height: 250px;
+	 }
+	 .row {
+	 	text-align: center;  
+	 	}
+	 p {
+	 	margin-top: 50px;
+	 	padding: 15px;
+	 	font-family: 'Roboto Slab', serif;
+	 	font-size: 12px;
+	 	text-align: center;
+	 }
+	 /*----- skills -----*/
+	 .container {
+ 	width: 65%;
+ 	height: 800px;
+ 	margin: auto;
+	}
+	h3 {
+		text-align: center;
+		margin-top: 45px;
+		font-size: 23px;
+	}
+	li {
+		list-style-type: none;
+		text-align: center;
+	}
+	li i {
+		margin-right: 10px;
+		margin-top: 10px;
+		color: #b43188;
+		text-align: center;
+	}
+	i {
+		color: #b43188;
+	}
+	.skills {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 384px) {
+	.header {
+		width: 100%;
+		height: 300px;
+		background-image: url(image/mlechny-put.jpg);
+		background-size: cover;
+		margin-bottom: 50px;
+    }
+    h1 {
+    	font-size: 30px;
+    }
+	 .content {
+	 	width: 65%;
+	 	height: 1000px;
+        
+	 }
+	.row img {
+	 	width: 200px;
+	 	height: 250px;
+	 }
+	 .row {
+	 	text-align: center;  
+	 	}
+	 p {
+	 	margin-top: 50px;
+	 	padding: 15px;
+	 	font-family: 'Roboto Slab', serif;
+	 	font-size: 12px;
+	 	text-align: center;
+	 }
+	 /*----- skills -----*/
+	 .container {
+ 	width: 65%;
+ 	height: 800px;
+ 	margin: auto;
+	}
+	h3 {
+		text-align: center;
+		margin-top: 45px;
+		font-size: 28px;
+	}
+	li {
+		list-style-type: none;
+		text-align: center;
+	}
+	li i {
+		margin-right: 10px;
+		margin-top: 10px;
+		color: #b43188;
+		text-align: center;
+	}
+	i {
+		color: #b43188;
+	}
+	.skills {
+		text-align: center;
+	}
+}
+@media screen and (min-width: 533px) {
+	.content {
+		display: inline;
+	}
+}
+/*---------------------------------             monitor            --------------------------------*/
+@media screen and (min-width: 1280px) {
+
+	html, body {
+		overflow-x: hidden;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	a {
+		text-decoration: none;
+	}
+	body {
+	}
+	/*--------------------------         header        ---------------- */
+	.header {
+		width: 100%;
+		height: 800px;
+		background-image: url(image/mlechny-put.jpg);
+		background-size: cover;
+		margin-bottom: 50px;
+	}
+	h1 {
+		opacity: 0.5;
+		color: white;
+		padding: 15px;
+		letter-spacing: 4px;
+		user-select: none;
+	}
+
+
+	 /*--------------------------         content        ---------------- */
+	 .content {
+	 	width: 80%;
+	 	height: 1600px;
+	 	margin: auto;
+	 	background-color: pink;
+	 }
+	.row img {
+	 	width: 350px;
+	 	height: 250px;
+	 }
+	 p {
+	 	margin-top: 50px;
+	 	padding: 15px;
+	 	font-family: 'Roboto Slab', serif;
+	 	font-size: 16px;
+	 }
+
+
+	/*------------------------------------ skills ---------------------------*/
+	.container {
+	 	width: 65%;
+	 	height: 800px;
+	 	margin: auto;
+	}
+	h3 {
+		text-align: center;
+		margin-top: 45px;
+	}
+	li {
+		list-style-type: none;
+	}
+	li i {
+		margin-right: 10px;
+		margin-top: 10px;
+	}
+	i {
+		color: #b43188;
+	}
+}
