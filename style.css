@@ -1,5 +1,6 @@
 html, body {
 	overflow-x: hidden;
+	background-color: #f3f3f3;
 }
 * {
 	margin: 0;
@@ -28,7 +29,7 @@ h1 {
 
 
  /*--------------------------         content        ---------------- */
- .content {
+ .wrapper {
  	width: 65%;
  	height: 1600px;
  	margin: auto;
